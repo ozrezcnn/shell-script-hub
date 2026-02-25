@@ -1,0 +1,30 @@
+.root {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  border-bottom: 1px solid gray;
+
+  button {
+    padding: 4px 8px;
+    font-size: 16px;
+    line-height: 0;
+  }
+}
+
+.btns {
+  display: flex;
+  margin-left: auto;
+  gap: 12px;
+}
+
+.status {
+  margin-top: 1px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}

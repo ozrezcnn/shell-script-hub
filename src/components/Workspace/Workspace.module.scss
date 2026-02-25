@@ -1,0 +1,56 @@
+.items {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 33px;
+  font-weight: 500;
+
+  button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    line-height: 0;
+    font-size: 16px;
+  }
+}
+
+.title__text {
+  padding-bottom: 9px;
+}
+
+.barContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.barText {
+  font-size: 13px;
+}
+
+.barWrapper {
+  box-sizing: border-box;
+  border-radius: 4px;
+  overflow: hidden;
+  background: gray;
+  flex: 1;
+}
+
+.bar {
+  height: 3px;
+  background: green;
+  transition: 0.2s;
+}

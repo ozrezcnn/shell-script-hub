@@ -1,0 +1,32 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.items {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.workspace {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 500px;
+}
